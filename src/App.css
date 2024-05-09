@@ -1,0 +1,167 @@
+body{
+  background-color: rgb(240, 239, 233);
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main2{
+  border: 0.3px solid rgb(139, 139, 139);
+  padding: 0px 20px 20px 20px;
+  background-color: aliceblue;
+}
+.title{
+  font-weight: 700;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  margin: 10px 0px 20px 0px ;
+  text-decoration: underline;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 18rem;
+  padding: 5px;
+}
+
+.row p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.row button{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 1.5rem;
+  cursor: pointer;
+  /* width: 3rem; */
+}
+
+
+/* -------Add Transcation Box----------- */
+
+.addtxn{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: 0.5px solid rgb(176, 173, 173);
+  border-radius: 8px;
+}
+
+.addtxn input{
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.radiobox{
+  width: 100%;
+  display: flex;
+}
+
+.addtxn button{
+  color: white;
+  background-color: rgb(119, 117, 117);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+/* ------expense box------ */
+
+.expenseBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.expense, .income{
+  border: 1px solid rgb(200, 199, 199);
+  border-radius: 10px;
+  width: 40%;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.heading{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.expense .heading{
+  color: red;
+}
+.income .heading{
+  color: green;
+}
+
+.rupees{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.transaction{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.transaction h4{
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.transaction input{
+  width: 90%;
+  height: 2rem;
+  background-color: rgb(207, 204, 204);
+  border: none;
+  border-radius: 9px;
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+
+.listContainer{
+  width: 100%;
+  margin-left: -30px;
+}
+
+
+/* ---------list of added expenses---------- */
+
+.list{
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.list span{
+  font-size: 18px;
+  font-weight:600; 
+}
